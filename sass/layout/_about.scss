@@ -1,6 +1,23 @@
 .section__no-padding-top {
     padding-top: 0;
+
+    @media screen and (min-width: 480px) {
+        visibility: hidden;
+        
+    }
+
+    @media screen and (min-width: 768px) {
+        visibility: hidden;
+
+    }
+
+    @media screen and (min-width: 1200px) {
+        visibility: visible;
+   
+        
+    }
 }
+
 
 
 .about-list {
@@ -16,7 +33,6 @@
          margin-right: 0;
     }
 }
-
 
 
 .about-list__lable {

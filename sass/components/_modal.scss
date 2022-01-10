@@ -1,3 +1,4 @@
+
 .backdrop {
     opacity: 1;
     visibility: visible;
@@ -33,6 +34,7 @@
     
 }
 
+
 .modal__close {
     position: absolute;
     top: 10px;
@@ -50,11 +52,13 @@
 
 }
 
+
 .is-hidden {
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
 }
+
 
 .modal {
     padding: 40px;

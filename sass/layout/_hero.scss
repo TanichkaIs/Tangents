@@ -1,7 +1,7 @@
 
 
 .hero {
-    max-width: 1600px;
+    //max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -11,17 +11,42 @@
         rgba(47, 48, 58, 0.4)
     ),
 
-    url(../img/herobg.jpg);
+    url(../img/new_images/Header1xmob.jpg);
     padding: 200px 0;
     
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  background-image: url(../img/new_images/Header2xmob.jpg);
+}
+
+@media screen and (min-width: 768px) {
+    background-image: url(../img/new_images/Header1xtab.jpg);
+    @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  background-image: url(../img/new_images/Header2xmob.jpg);
+}
+}
+
+@media screen and (min-width: 1200px) {
+    background-image: url(/img/herobg.jpg);
+    @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  background-image: url(../img/new_images/Headerbg2x.jpg);
+}
+}
 }
 
 .hero-list{
     display: flex;
+    //width: 100%;
+    //padding: 0;
 }
 
 
@@ -30,16 +55,22 @@ margin-left: auto;
 margin-right: auto;
 font-weight: 900;
 font-size: 26px;
-line-height: 1.36;
+line-height: 1.62;
 text-align: center;
-max-width: 696px;
+max-width: 360px;
 height: 84px;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--main-title-color);
 
 @media screen and (min-width: 1200px) {
+    max-width: 696px;
     font-size: 44px;
     height: 120px;
+    text-align: center;
+    line-height: 1.36;
+    max-width: 696px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 }

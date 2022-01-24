@@ -1,29 +1,64 @@
-.footer {
-    
+ .footer {
+    padding: 60px 0;
     background-color: #2F303A;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    //padding-top: 60px;
+    //padding-bottom: 60px;
+    height: 100%;
+
+
+    @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 60px;
+        padding-bottom: 60px; 
+    }
     
 }
 
 .footer-first__logo-item {
+    //display: inline-block;
+ margin-bottom: 20px;
 font-family: Raleway;  
 font-weight: 700;
-font-size: 26px;
-line-height: 31px;
+font-size: 24px;
+line-height: 28px;
 letter-spacing: 0.03em;
 color: var(--first-text-color);
+
+@media screen and (min-width: 1200px) {
+    display: inline-block;
+    font-size: 26px;
+    line-height: 31px;
+}
+
 }
 
 .footer-logo {
+    display: inline-block;
+    //margin-bottom: 20px;
 font-family: Raleway;
 font-weight: 700;
-font-size: 26px;
-line-height: 31px;
+font-size: 24px;
+line-height: 28px;
 letter-spacing: 0.03em;
 color: var(--accent-color);
+
+@media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 31px;
+    margin-bottom: 20px;
+}
 }
 
+.submit {
+    align-items: baseline;
+		text-align: start;
+		justify-content: start;
+		flex-wrap: nowrap;
+}
 
 .colored1 {
     color: var(--main-title-color);
@@ -32,6 +67,16 @@ color: var(--accent-color);
 .footer-address {
     font-style: normal;
     margin-top: 20px;
+    margin-bottom: 60px;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 0;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
 }
 
 .footer-list__adress {
@@ -56,10 +101,22 @@ color: var(--third-text-color)
 }
 
 .container-logo-icons {
-    display: flex;
-    align-items: baseline;
+    //display: flex;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     
 }
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        align-items: baseline;
+    
+}
+}
+
+
 
 .footer-title {
 font-weight: 700;
@@ -69,12 +126,17 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--main-title-color);
 display: block;
+text-align: center;
 }
+
 
 .footer-social-list {
     display: flex;
     margin-top: 20px;
+    justify-content: center;
 }
+
+
 
 
 .footer-social-list__item {
@@ -104,19 +166,25 @@ display: block;
 }
 }
 
+
 .footer-first {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+    text-align: center;
+    //display: flex;
+    //flex-wrap: wrap;
+
 //flex-grow: 1;
 //justify-content: flex-start;
 
 @media screen and (min-width: 768px) {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    //justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: column;
 }
 @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
     flex-grow: 1;
     justify-content: flex-start;
 }
@@ -125,7 +193,19 @@ display: block;
 
 
 .container-social {
-    margin-left: 70px;
+    //margin-left: 70px;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        //margin-top: 60px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-left: 70px;
+        margin-top: 0px;}
 }
     
 .footer-submit-title {
@@ -141,7 +221,7 @@ color: var(--main-title-color);
 display: inline-flex;
 min-width: 200px;
 height: 50px;
-margin-left: 12px;
+//margin-left: 12px;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
@@ -155,12 +235,36 @@ border-radius: 4px;
 align-items: center;
 justify-content: center;
 border: transparent;
+
+@media screen and (min-width: 767.99px) {
+    
+}
+
+@media screen and (min-width: 1200px) {
+    display: inline-flex;
+    margin-left: 12px;
+
+}
 }
 
 
 .footer-submit {
-    margin-left: 93px;
-    margin-top: 20px;
+    //margin-left: 93px;
+    //margin-top: 20px;
+text-align: center;
+margin-top: 60px;
+
+@media screen and (min-width: 768px) {
+    //display: flex;
+    
+
+}
+    @media screen and (min-width: 1200px) {
+    
+        margin-left: 93px;
+        margin-top: 20px;
+        text-align: left;
+}
 }
 
 
@@ -179,6 +283,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
 background: #2F303A; 
 margin-top: 20px;
+margin-bottom: 20px;
 
 &::placeholder {
     font-weight: 700;

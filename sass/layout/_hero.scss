@@ -21,24 +21,44 @@ background-size: cover;
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  background-image: url(../img/new_images/Header2xmob.jpg);
+  background-image:radial-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+),
+ url(../img/new_images/Header2xmob.jpg);
 }
 
 @media screen and (min-width: 768px) {
-    background-image: url(../img/new_images/Header1xtab.jpg);
+    background-image:
+    radial-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+    ), url(../img/new_images/Header1xtab.jpg);
     @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  background-image: url(../img/new_images/Header2xmob.jpg);
+  background-image:radial-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+),
+url(../img/new_images/Header2xtab.jpg);
 }
 }
 
 @media screen and (min-width: 1200px) {
-    background-image: url(/img/herobg.jpg);
+    background-image: radial-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+    ),
+    url(/img/herobg.jpg);
     @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  background-image: url(../img/new_images/Headerbg2x.jpg);
+  background-image:
+  radial-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+    ), url(../img/new_images/Headerbg2x.jpg);
 }
 }
 }

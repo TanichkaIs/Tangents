@@ -101,7 +101,7 @@ transition: opacity 300ms cubic-bezier(0.4, 0, 0.2, 1), visibility 300ms, cubic-
      fill: var(--accent-color);
 }
 
-&::placeholder,
+&::placeholder
  {
      color: var(--header-text-color);
     opacity: 0.7;
@@ -266,7 +266,6 @@ border: transparent;
 }
 
 .modal-form__adreement {
-  
 font-style: normal;
 font-weight: normal;
 font-size: 14px;

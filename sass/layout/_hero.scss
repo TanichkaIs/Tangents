@@ -12,7 +12,24 @@
     ),
 
     url(../img/new_images/Header1xmob.jpg);
-    padding: 200px 0;
+    
+
+    @media screen and (min-width: 350px) {
+        padding: 118px 0;
+    }
+
+    @media screen and (min-width: 468px) {
+        padding: 118px 0;
+    }
+
+    @media screen and (min-width: 768px) {
+        padding: 118px 0;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding: 200px 0;
+    }
+  
     
 background-repeat: no-repeat;
 background-position: center;

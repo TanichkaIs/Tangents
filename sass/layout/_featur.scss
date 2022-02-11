@@ -1,11 +1,18 @@
 .featur-list {
     //display: flex; 
     list-style: none;
+    margin-top: 60px;
+    margin-bottom: 60px;
 
     @media screen and (min-width: 768px) {
         display: flex;
         flex-wrap: wrap;
         margin-left: -30px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-top: 94px;
+        margin-bottom: 94px;
     }
 }
 
@@ -16,7 +23,13 @@
 
   //  &:nth-child(4n) {
         margin-right: 0;
-    
+        
+ @media screen and (min-width: 468px) {
+     margin-bottom: 30px;  
+     &:nth-child(4) {
+        margin-bottom: 0; 
+        }
+    }
 
     @media screen and (min-width: 768px) {
         width: calc(100%/2 - 30px);

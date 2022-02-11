@@ -6,6 +6,9 @@
     letter-spacing: 0.03em;
     color: #212121;
     margin-bottom: 30px;
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 50px;
+    }
 }
 
 .clients-icon{
@@ -17,8 +20,18 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: -60px;
-    
+    //margin-bottom: -60px;
+
+     
+}
+
+.clients__container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
 }
 
 .clients-list__item {

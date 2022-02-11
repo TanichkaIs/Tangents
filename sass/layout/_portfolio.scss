@@ -13,15 +13,18 @@
     color: var(--second-button-color);
 
     @media screen and (min-width: 468px) {
+        margin-top: 60px;
 		margin-bottom: 40px;
 	}
 
     @media screen and (min-width: 768px) {
 		justify-content: center;
         flex-wrap: nowrap;
+        margin-top: 60px;
 		margin-bottom: 30px;
 	}
 	@media screen and (min-width: 1200px) {
+        margin-top: 94px;
 		margin-bottom: 50px;
 		flex-wrap: nowrap;
 	}
@@ -90,16 +93,22 @@
     .example-list {
         // display: flex;
         //flex-wrap: wrap;
+        @media screen and (min-width: 468px) {
+            margin-bottom: 60px;
+        }
+        
         @media screen and (min-width: 768px) {
             display: flex;
             flex-wrap: wrap;
             margin-left: -30px;
+            margin-bottom: 60px;
         }
 
         @media screen and (min-width: 1200px) {
             display: flex;
             flex-wrap: wrap;
             margin-left: -30px;
+            margin-bottom: 94px;
         }
     }
     

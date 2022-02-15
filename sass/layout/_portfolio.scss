@@ -3,6 +3,8 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    //margin-top: 60px;
+	margin-bottom: 40px;
     //margin-bottom: 40px;
     //font-weight: 500;
     //font-size: 16px;
@@ -12,19 +14,16 @@
     
     color: var(--second-button-color);
 
-    @media screen and (min-width: 468px) {
-        margin-top: 60px;
-		margin-bottom: 40px;
-	}
+    
 
     @media screen and (min-width: 768px) {
 		justify-content: center;
         flex-wrap: nowrap;
-        margin-top: 60px;
+        //margin-top: 60px;
 		margin-bottom: 30px;
 	}
 	@media screen and (min-width: 1200px) {
-        margin-top: 94px;
+       // margin-top: 94px;
 		margin-bottom: 50px;
 		flex-wrap: nowrap;
 	}
@@ -35,6 +34,7 @@
     flex-wrap: wrap;
       margin-right: 8px;  
       margin-bottom: 15px;
+      
 
      &:last-child {
         margin-right: 0;
@@ -45,9 +45,7 @@
             
         }
 
-        @media screen and (max-width: 468px) {
-            margin-bottom: 15px;
-         }
+        
 
         @media screen and (max-width: 768px) {
             flex-wrap: nowrap;
@@ -91,24 +89,23 @@
     
     
     .example-list {
+        //margin-bottom: 60px;
         // display: flex;
         //flex-wrap: wrap;
-        @media screen and (min-width: 468px) {
-            margin-bottom: 60px;
-        }
+        
         
         @media screen and (min-width: 768px) {
             display: flex;
             flex-wrap: wrap;
             margin-left: -30px;
-            margin-bottom: 60px;
+            
         }
 
         @media screen and (min-width: 1200px) {
             display: flex;
             flex-wrap: wrap;
             margin-left: -30px;
-            margin-bottom: 94px;
+           
         }
     }
     
@@ -232,9 +229,8 @@
     
 
 .example-div__card1 {
-    @media screen and (min-width: 468px) {
-        height: 110px;
-    }
+    height: 110px;
+    
 
     @media screen and (min-width: 768px) {
         height: 146px;

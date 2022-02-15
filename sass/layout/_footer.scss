@@ -1,23 +1,11 @@
  .footer {
-   // padding: 60px 0;
+    padding: 60px 0;
     background-color: #2F303A;
     //padding-top: 60px;
     //padding-bottom: 60px;
     //height: 100%;
 
 
-    @media screen and (min-width: 468px) {
-         padding: 60px 0;
-    }
-
-    @media screen and (min-width: 768px) {
-        padding: 60px 0;
-}
-
-    @media screen and (min-width: 1200px) {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
     
 }
 
@@ -170,18 +158,15 @@ text-align: center;
 
 
 .footer-first {
-    //margin-bottom: 60px;
-    //text-align: center;
+    margin-bottom: 60px;
+    text-align: center;
     //display: flex;
     //flex-wrap: wrap;
 
 //flex-grow: 1;
 //justify-content: flex-start;
 
-@media screen and (min-width: 468px) {
-    margin-bottom: 60px;
-    text-align: center;
-}
+
 
 @media screen and (min-width: 768px) {
     display: flex;

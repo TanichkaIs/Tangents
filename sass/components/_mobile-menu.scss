@@ -8,7 +8,7 @@
 	&:focus {
 		color: #2196F3;
 	}
-	@media screen and (min-width: 768px) {
+	@media screen and (min-width: 767px) {
 		display: none;
 	}
 }
@@ -17,6 +17,9 @@
 
 .mob-menu__close-btn {
     display: block;
+	border-radius: 50%;
+	display: flex;
+	text-align: center;
 	border: none;
     margin-left: auto;
 	background-color: transparent;
@@ -36,15 +39,12 @@
 
 
 .mob-menu__container {
-    position: absolute;
+
 	position: fixed;
 	width: 100vw;
-	height: 100vh;
+	//height: 100vh;
 	background-color: #ffffff;
-	padding-top: 48px;
-	padding-bottom: 48px;
-	padding-left: 40px;
-	padding-left: 21px;
+	
 	left: 0;
 	top: 0;
 	display: flex;
@@ -94,9 +94,11 @@
 .mob-contacts__item {
     display: block;
 	margin-bottom: 32px;
-	&:last-child {
-		margin-bottom: 64px;
-	}
+	
+}
+
+.mob-contacts {
+	margin-bottom: 64px;
 }
 
 .mob-contacts__link {
@@ -122,8 +124,15 @@
 
 .mob-socials {
 	display: flex;
+	flex-wrap: wrap;
+	margin-right: -10px;
+	margin-top: -10px;
 }
+
 .mob-socials__item {
+margin-left: 10px;
+margin-top: 10px;
+
 	&:nth-child(-n + 3)::after {
 		content: "";
 		height: 100%;

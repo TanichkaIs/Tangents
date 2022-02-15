@@ -1,6 +1,6 @@
 .featur-list {
     //display: flex; 
-    list-style: none;
+    //list-style: none;
     //margin-top: 60px;
     //margin-bottom: 60px;
 
@@ -10,20 +10,23 @@
         margin-left: -30px;
     }
 
-    
+}
+
+.card-set {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
 }
 
 
-
 .featur-list__item {
-  //  margin-right: 30px;
-
-  //  &:nth-child(4n) {
+  
     margin-bottom: 30px;  
     &:nth-child(4) {
        margin-bottom: 0; 
        }
-        margin-right: 0;
+        //margin-right: 0;
         
 
 
@@ -36,6 +39,12 @@
         width: calc(100%/4 - 30px);
         margin-left: 30px;
     } 
+}
+
+.cart-item {
+margin-left: 30px;
+margin-top: 30px;
+flex-basis: calc(100%/var(--card-item)-30px);
 }
 
 

@@ -9,9 +9,9 @@
     
 }
 
-.footer-first__logo-item {
+.logo__item {
     //display: inline-block;
- margin-bottom: 20px;
+ //margin-bottom: 20px;
 font-family: Raleway;  
 font-weight: 700;
 font-size: 24px;
@@ -19,15 +19,10 @@ line-height: 28px;
 letter-spacing: 0.03em;
 color: var(--first-text-color);
 
-@media screen and (min-width: 1200px) {
-    display: inline-block;
-    font-size: 26px;
-    line-height: 31px;
-}
-
 }
 
 .footer-logo {
+    margin-bottom: 20px;
     display: inline-block;
     //margin-bottom: 20px;
 font-family: Raleway;
@@ -38,6 +33,7 @@ letter-spacing: 0.03em;
 color: var(--accent-color);
 
 @media screen and (min-width: 1200px) {
+    display: inline-block;
     font-size: 26px;
     line-height: 31px;
     margin-bottom: 20px;
@@ -108,16 +104,7 @@ color: var(--third-text-color)
 
 
 
-.footer-title {
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--main-title-color);
-display: block;
-text-align: center;
-}
+
 
 
 .footer-social-list {
@@ -203,13 +190,20 @@ text-align: center;
         margin-top: 0px;}
 }
     
+
+.footer-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-title-color);
+    display: block;
+    text-align: center;
+    }
+
 .footer-submit-title {
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--main-title-color);
+text-align: left;
 }
 
 .submit__button {

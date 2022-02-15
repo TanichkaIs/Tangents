@@ -12,12 +12,7 @@
 
 }
 
-.card-set {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -30px;
-    margin-top: -30px;
-}
+
 
 
 .featur-list__item {
@@ -41,11 +36,6 @@
     } 
 }
 
-.cart-item {
-margin-left: 30px;
-margin-top: 30px;
-flex-basis: calc(100%/var(--card-item)-30px);
-}
 
 
 .featur-list__title {

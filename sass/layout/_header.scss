@@ -28,17 +28,13 @@
 
 
 
-.header__logo-item {
-font-family: Raleway;
-padding-top: 24px;
-padding-bottom: 25px;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: var(--accent-color);
-}
 
+
+.header__logo {
+   padding-top: 24px;
+   padding-bottom: 25px;
+   padding-right: 93px; 
+}
 
 
 .header-list {

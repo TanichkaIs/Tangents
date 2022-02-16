@@ -3,10 +3,7 @@
 //padding-bottom: 60px;
     background-color: #F5F4FA;
 
-    @media screen and (min-width: 1200px) {
-       // padding-top: 94px;
-        //padding-bottom: 94px;
-    }
+   
 
 }
 
@@ -32,13 +29,15 @@
     
     
     @media screen and (min-width: 768px) {
-            width: calc(100%/2 - 30px);
-            margin-left: 30px;
+            //width: calc(100%/2 - 30px);
+           // margin-left: 30px;
+          --card-item: 2;
         }   
     
     @media screen and (min-width: 1200px) {
             width: calc(100%/4 - 30px);
-            margin-left: 30px;
+           // --card-item: 4;
+           
         } 
         }
 

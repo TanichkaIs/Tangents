@@ -20,11 +20,9 @@
 
 
 .modal {
-    width: 450px;
+    max-width: 450px;
     min-height: 605px;
-
-    
-   
+width: 100%;
 
 @media screen and (min-width: 1200px) {
     width: 528px;
@@ -242,6 +240,7 @@ text-align: center;
   }
 }
 
+
 .modal-form__icon-check {
     fill: #FFFFFF;
 }
@@ -271,6 +270,8 @@ text-align: center;
 }
 
 .modal-form__adreement {
+
+  
     display: inline;
 font-style: normal;
 font-weight: normal;
@@ -284,4 +285,22 @@ color: var(--second-text-color);
     font-size: 14px;
 line-height: 1.71;
 }
+}
+
+
+.span-modal {
+    
+    display: inline;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    
+    color: var(--second-text-color);
+    
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;
+    line-height: 1.71;
+    }  
 }

@@ -802,7 +802,7 @@ img {
   font-size: 26px;
   line-height: 1.62;
   text-align: center;
-  max-width: 200px;
+  max-width: 500px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-title-color);
